@@ -1,0 +1,86 @@
+ 
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	font: 1.5rem/2.5rem normal 'OpenSans';
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+	font-family: 'Ubuntu Mono';
+	font-weight: 700;
+}
+
+tr.dead {
+	opacity: .5;
+}
+
+.navbar-brand span {
+	opacity: .5;
+}
+
+body {
+	padding-top: 50px;
+}
+
+.label {
+	display: block;
+	padding: .5rem 0;
+}
+
+.jumbotron .btn-lg {
+	padding: 2rem 4rem;
+	font-size: 2rem;
+	text-shadow: 0 1px 0 rgba(0,0,0,.25);
+}
+
+.nope {
+	display: none;
+}
+
+.fa.disabled {
+	color: #e5e5e5
+}
+
+.more {
+	background: #e5e5e5;
+	font-size: 1.5rem;
+}
+
+.more .content {
+	padding: 3rem;
+}
+
+.jumbotron {
+	background: url('/img/escheresque.png') 0 0 repeat;
+}
+
+#new_job_location_onsite {
+	margin-top: 20px;
+	display: none;
+}
+
+body .navbar-btn:hover {
+	margin-top: 8px;
+}
+
+footer {
+	opacity: .75;
+	font-size: 1.25rem;
+}
+
+#description_helper,
+#checkout {
+	display: none;
+}
+
+tr, tr td strong {
+	cursor: pointer;
+}
+
+tr.more,
+tr {
+	cursor: text;
+}
+
